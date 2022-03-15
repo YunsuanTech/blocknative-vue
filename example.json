@@ -1,0 +1,51 @@
+{
+  "status": "pending",
+  "monitorId": "Geth_1_D_PROD",
+  "monitorVersion": "0.113.0",
+  "pendingTimeStamp": "2022-03-15T09:41:17.863Z",
+  "pendingBlockNumber": 14390392,
+  "hash": "0x4359187deca9c30bcc5809c6e790a4a348a7f314d62b94f3483fc07be70c3e53",
+  "from": "0x2d68EE1Fd4da6Ae82Bd7d0eb806E8b67Ab419473",
+  "to": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+  "value": "0",
+  "gas": 216127,
+  "nonce": 70,
+  "blockHash": null,
+  "blockNumber": null,
+  "v": "0x1",
+  "r": "0x1aaab2d894c4e55c1034a5b153be5c14e70111ea0fb2b8150c527da3aeb09344",
+  "s": "0x1afaf35aad2d33a50f77a0d4295d66631aefd1152954ca9b45e5ccda4b339cb2",
+  "input": "0x38ed173900000000000000000000000000000000000000000000001043561a88293000000000000000000000000000000000000000000000000000000000000020b6015d00000000000000000000000000000000000000000000000000000000000000a00000000000000000000000002d68ee1fd4da6ae82bd7d0eb806e8b67ab41947300000000000000000000000000000000000000000000000000000000623063cb000000000000000000000000000000000000000000000000000000000000000300000000000000000000000083e6f1e41cdd28eaceb20cb649155049fac3d5aa000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2000000000000000000000000dac17f958d2ee523a2206206994597c13d831ec7",
+  "type": 2,
+  "maxFeePerGas": "22330527664",
+  "maxFeePerGasGwei": 22.3,
+  "maxPriorityFeePerGas": "1500000000",
+  "maxPriorityFeePerGasGwei": 1.5,
+  "asset": "",
+  "estimatedBlocksUntilConfirmed": 1,
+  "watchedAddress": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+  "direction": "incoming",
+  "counterparty": "0x2d68EE1Fd4da6Ae82Bd7d0eb806E8b67Ab419473",
+  "serverVersion": "0.132.0",
+  "eventCode": "txPool",
+  "timeStamp": "2022-03-15T09:41:17.863Z",
+  "dispatchTimestamp": "2022-03-15T09:41:18.011Z",
+  "system": "ethereum",
+  "network": "main",
+  "contractCall": {
+    "contractType": "Uniswap V2: Router 2",
+    "contractAddress": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+    "methodName": "swapExactTokensForTokens",
+    "params": {
+      "amountIn": "300000000000000000000",
+      "amountOutMin": "548798813",
+      "path": [
+        "0x83e6f1E41cdd28eAcEB20Cb649155049Fac3D5Aa",
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+      ],
+      "to": "0x2d68EE1Fd4da6Ae82Bd7d0eb806E8b67Ab419473",
+      "deadline": "1647338443"
+    }
+  }
+}
